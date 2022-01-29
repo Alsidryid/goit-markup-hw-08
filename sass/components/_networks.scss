@@ -1,0 +1,40 @@
+.networks__title {
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--bacnd-color);
+}
+.networks {
+  margin-left: 70px;
+}
+.networks__list {
+  display: flex;
+  align-items: center;
+}
+.networks__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--bacnd-color);
+}
+.networks__content:not(:last-child) {
+  margin-right: 10px;
+}
+.networks__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+}
