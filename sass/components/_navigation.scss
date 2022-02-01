@@ -1,11 +1,15 @@
 .navigation {
   display: none;
-  align-items: center;
+
+  background-color: var(--bacnd-color);
+
+  &.is-open {
+    display: block;
+  }
 }
 
 .navigation__list {
   align-items: center;
-  margin-left: 93px;
 }
 .navigation__content:not(:last-child) {
   margin-right: 50px;
@@ -19,8 +23,8 @@
 .navigation__link {
   position: relative;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 40px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   text-decoration: none;

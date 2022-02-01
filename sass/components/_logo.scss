@@ -6,6 +6,7 @@
   letter-spacing: 0.03em;
 
   &--top {
+    display: inline-block;
     color: var(--logo-color);
   }
   &--bottom {
