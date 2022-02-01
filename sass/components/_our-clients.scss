@@ -1,21 +1,22 @@
 .our-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .our-clients__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .clients {
-  justify-content: center;
+  margin: -15px -15px -15px -15px;
 }
-.clients__content:not(:last-child) {
-  margin-right: 30px;
+.clients__content {
+  display: inline-block;
+  margin: 15px 15px 15px 15px;
 }
 
 .clients__icon {
@@ -27,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 208px;
   height: 92px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;

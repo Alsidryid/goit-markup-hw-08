@@ -6,12 +6,14 @@
   letter-spacing: 0.03em;
 
   &--top {
-  color: var(--logo-color);
-}
+    color: var(--logo-color);
+  }
   &--bottom {
-  color: var(--bacnd-color);
-  margin-bottom: 20px;
-}
+    text-align: center;
+    display: block;
+    color: var(--bacnd-color);
+    margin-bottom: 20px;
+  }
 }
 
 .logo__web {
