@@ -1,4 +1,6 @@
 .our-team {
+  padding-bottom: 60px;
+  padding-top: 60px;
   background-color: var(--dysine-color);
 
   &__title {
@@ -7,10 +9,9 @@
     text-align: center;
     letter-spacing: 0.03em;
     font-size: 36px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   &__list {
-    display: flex;
   }
 }

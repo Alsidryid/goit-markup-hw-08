@@ -1,9 +1,9 @@
 .navigation {
-  display: flex;
+  display: none;
   align-items: center;
 }
+
 .navigation__list {
-  display: flex;
   align-items: center;
   margin-left: 93px;
 }
@@ -35,7 +35,7 @@
     color: var(--secondary-color);
   }
 
-  &&--studio::after {
+  &.navigation__link--studio::after {
     position: absolute;
     bottom: -1px;
     content: '';
@@ -45,7 +45,7 @@
     border-radius: 2px;
     background-color: var(--secondary-color);
 
-    &&--portfolio::after {
+    &.navigation__link--portfolio::after {
       position: absolute;
       bottom: -1px;
       content: '';

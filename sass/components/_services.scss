@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  width: 270px;
+
   height: 120px;
   background-color: var(--dysine-color);
   border-radius: 4px;
@@ -13,14 +13,14 @@
   height: 70px;
 }
 .services {
-  display: flex;
   align-items: center;
+  padding: 60px 15px;
 }
 .services__content {
-  width: 270px;
+  width: 100%;
 
-  &:not(:last-child) {
-    margin-right: 30px;
+  &:not(:first-child) {
+    margin-top: 30px;
   }
 }
 
@@ -29,6 +29,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
