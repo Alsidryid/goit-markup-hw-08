@@ -5,6 +5,10 @@
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    @media screen and (min-width: 768px) {
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
   }
 }
 .header__button {
@@ -15,6 +19,10 @@
   margin-left: auto;
   margin-top: 4px;
   .header__close {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
@@ -30,4 +38,7 @@
 .header__nav {
   display: flex;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }

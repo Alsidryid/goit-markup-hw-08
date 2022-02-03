@@ -8,6 +8,9 @@
   &--top {
     display: inline-block;
     color: var(--logo-color);
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
   }
   &--bottom {
     text-align: center;
@@ -19,4 +22,7 @@
 
 .logo__web {
   color: var(--secondary-color);
+}
+.navigation .logo {
+  color: var(--logo-color);
 }
