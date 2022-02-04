@@ -8,9 +8,20 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--bacnd-color);
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
 }
 .networks {
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-top: 5px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+  }
 }
 .networks__list {
   display: flex;

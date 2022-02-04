@@ -42,6 +42,9 @@
   @media screen and(min-width:768px) {
     width: 354px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
   &:not(:last-child) {
     @media screen and(max-width:767px) {
       margin-bottom: 30px;
@@ -52,10 +55,20 @@
   @media screen and (min-width: 768px) {
     margin-right: 25px;
   }
+  @media screen and (min-width: 1200px) {
+  }
 }
 .employee:nth-last-child(-n + 2) {
   @media screen and (min-width: 768px) {
     margin-top: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+  }
+}
+.employee:not(:last-child) {
+  @media screen and (min-width: 1200px) {
+    margin-right: 30px;
   }
 }
 .employee__box {

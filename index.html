@@ -223,7 +223,15 @@
             <h2 class="our-team__title">Наша команда</h2>
             <ul class="our-team__list list">             
                 <li class="employee">
-                    <img class="special" srcset="./images/team/worker1menu1x.jpg 1x, ./images/team/worker1menu2x.jpg 2x " src="./images/team/worker1menu1x.jpg" alt="worker" width="100%" >
+                    <picture>
+                        <source srcset="./images/team/worker1/dworker1x1.jpg 1x, ./images/team/worker1/dworker1x2.jpg 2x"
+                                media="(min-width:1200px)"/>
+                        <source srcset="./images/team/worker1/tworker1x1.jpg 1x, ./images/team/worker1/tworker1x2.jpg 2x" 
+                                media="(min-width:768px)" />
+                        <source srcset="./images/team/worker1/mworker1x1.jpg 1x, ./images/team/worker1/mworker1x2.jpg 2x" 
+                                media="(min-width:480px)" />
+                         <img  src="./images/team/worker1/mworker1x1.jpg" alt="worker" width="100%" >
+                    </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Игорь Демьяненко</h3>
                     <p class="employee__position">Product Designer</p>
@@ -252,7 +260,15 @@
                     </div>
                 </li>
                 <li class="employee">
-                    <img src="./images/team/worker2menu1x.jpg" alt="worker" width="100%">
+                    <picture>
+                        <source srcset="./images/team/worker2/dworker2x1.jpg 1x, ./images/team/worker2/dworker2x2.jpg 2x"
+                            media="(min-width:1200px)" />
+                        <source srcset="./images/team/worker2/tworker2x1.jpg 1x, ./images/team/worker2/tworker2x2.jpg 2x"
+                            media="(min-width:768px)" />
+                        <source srcset="./images/team/worker2/mworker2x1.jpg 1x, ./images/team/worker2/mworker2x2.jpg 2x"
+                            media="(min-width:480px)" />
+                        <img src="./images/team/worker2/mworker2x1.jpg" alt="worker" width="100%">
+                        </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Ольга Репина</h3>
                     <p class="employee__position">Frontend Developer</p>
@@ -281,7 +297,15 @@
                     </div>
                 </li>
                 <li class="employee">
-                    <img src="./images/team/worker3menu1x.jpg" alt="worker" width="100%">
+                    <picture>
+                        <source srcset="./images/team/worker3/dworker3x1.jpg 1x, ./images/team/worker3/dworker3x2.jpg 2x"
+                            media="(min-width:1200px)" />
+                        <source srcset="./images/team/worker3/tworker3x1.jpg 1x, ./images/team/worker3/tworker3x2.jpg 2x"
+                            media="(min-width:768px)" />
+                        <source srcset="./images/team/worker3/mworker3x1.jpg 1x, ./images/team/worker3/mworker3x2.jpg 2x"
+                            media="(min-width:480px)" />
+                        <img src="./images/team/worker3/mworker3x1.jpg" alt="worker" width="100%">
+                    </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Николай Тарасов</h3>
                     <p class="employee__position">Marketing</p>
@@ -310,7 +334,15 @@
                     </div>
                 </li>
                 <li class="employee">
-                    <img src="./images/team/worker4menu1x.jpg" alt="worker" width="100%">
+                    <picture>
+                        <source srcset="./images/team/worker4/dworker4x1.jpg 1x, ./images/team/worker4/dworker4x2.jpg 2x"
+                            media="(min-width:1200px)" />
+                        <source srcset="./images/team/worker4/tworker4x1.jpg 1x, ./images/team/worker4/tworker4x2.jpg 2x"
+                            media="(min-width:768px)" />
+                        <source srcset="./images/team/worker4/mworker4x1.jpg 1x, ./images/team/worker4/mworker4x2.jpg 2x"
+                            media="(min-width:480px)" />
+                        <img src="./images/team/worker4/mworker4x1.jpg" alt="worker" width="100%">
+                    </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Михаил Ермаков</h3>
                     <p class="employee__position">UI Designer</p>
@@ -381,7 +413,8 @@
     <!--Подвал-->
     <footer class="footer">
         <div class="container footer__container">
-            <div class="navigation-box">
+            <div class="footer__navigation">
+                <div class="navigation-box">
             <a class="logo link logo--bottom " href="./index.html">
                 <span class="logo__web">Web</span>Studio
             </a>
@@ -393,8 +426,8 @@
                     <li class="adress__content"><a class="adress__secondary link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </address>
-            </div>
-            <div class="networks">
+                </div>
+                <div class="networks">
                 <h3 class="networks__title">Присоединяйтесь</h3>
                 <ul class="networks__list list">
                     <li class="networks__content">
@@ -423,8 +456,10 @@
                     </li>
                 </ul>
             
+                </div>
             </div>
             <div class="mailing">
+            
                 <h3 class="mailing__title">Подпишитесь на рассылку</h3>
                 <form class="mailing__form" autocomplete="off">
                     <label class="mailing__label">

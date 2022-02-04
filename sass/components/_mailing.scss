@@ -1,3 +1,9 @@
+.mailing {
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    margin-top: 12px;
+  }
+}
 .mailing__title {
   text-align: center;
   font-weight: 700;
@@ -8,8 +14,15 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--bacnd-color);
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
 }
-
+.mailing__form {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
 .mailing__input {
   font-size: 16px;
   line-height: 1.25;
@@ -30,6 +43,14 @@
   &:focus,
   &:hover {
     border-color: var(--secondary-color);
+  }
+  @media screen and (min-width: 768px) {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
   }
 }
 
@@ -58,6 +79,10 @@
   &:focus,
   &:hover {
     background-color: var(--button-color);
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+    margin-left: 12px;
   }
 }
 

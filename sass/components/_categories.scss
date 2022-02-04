@@ -37,10 +37,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: first baseline;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 .categories__content:not(:last-child) {
   margin-right: 8px;
 }
 .categories__cards {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 768px) {
+    padding-bottom: 94px;
+  }
 }

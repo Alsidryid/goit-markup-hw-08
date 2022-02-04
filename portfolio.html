@@ -72,13 +72,12 @@
                     <span class="logo__web">Web</span>Studio
                 </a>
                 <ul class="navigation__list list">
-                    <li class="navigation__content"><a class="navigation__link navigation__link--studio link"
+                    <li class="navigation__content"><a class="navigation__link  link"
                             href="./index.html">Студия</a></li>
-                    <li class="navigation__content"><a class="navigation__link link" href="./portfolio.html">Портфолио</a>
-                    </li>
+                    <li class="navigation__content"><a class="navigation__link navigation__link--portfolio link" href="./portfolio.html">Портфолио</a></li>
                     <li class="navigation__content"><a class="navigation__link link" href="">Контакты</a></li>
                 </ul>
-    
+            
                 <ul class="contacts list">
                     <li class="contacts__content"><a class="contacts__link link" href="mailto:info@devstudio.com">
                             <svg class="contacts__icon contacts__icon--mail">
@@ -95,8 +94,6 @@
                         </a></li>
                 </ul>
             </nav>
-    
-        </div>
     
     </header>
     <!-- Основная секция-->
@@ -116,7 +113,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
-                                <img src="./images/portfolio/mport/mport1x1.jpg" alt="Открытый ноутбук" width="100%">
+                                <picture>
+                                    <source srcset="./images/portfolio/dport/dport1x1.jpg 1x, ./images/portfolio/dport/dport1x2.jpg 2x"
+                                        media="(min-width:1200px)" />
+                                    <source srcset="./images/portfolio/tport/tport1x1.jpg 1x, ./images/portfolio/tport/tport1x2.jpg 2x"
+                                        media="(min-width:768px)" />
+                                    <source srcset="./images/portfolio/mport/mport1x1.jpg 1x, ./images/portfolio/mport/mport1x2.jpg 2x"
+                                        media="(min-width:480px)" />
+                                    <img src="./images/portfolio/mport/mport1x1.jpg" alt="Открытый ноутбук" width="100%">
+                                </picture>
                                 <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -132,7 +137,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport2x1.jpg 1x, ./images/portfolio/dport/dport2x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport2x1.jpg 1x, ./images/portfolio/tport/tport2x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport2x1.jpg 1x, ./images/portfolio/mport/mport2x2.jpg 2x"
+                                media="(min-width:480px)" />
                             <img src="./images/portfolio/mport/mport2x1.jpg" alt="Два баскетболиста" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -149,7 +162,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
-                            <img src="./images/portfolio/mport/mport3x1.jpg" alt="Логотип ресторана" width="100%">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport3x1.jpg 1x, ./images/portfolio/dport/dport3x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport3x1.jpg 1x, ./images/portfolio/tport/tport3x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport3x1.jpg 1x, ./images/portfolio/mport/mport3x2.jpg 2x"
+                                media="(min-width:480px)" />
+                            <img src="./images/portfolio/mport/mport3x1.jpg" alt="Лого ресторана" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -165,7 +186,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport4x1.jpg 1x, ./images/portfolio/dport/dport4x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport4x1.jpg 1x, ./images/portfolio/tport/tport4x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport4x1.jpg 1x, ./images/portfolio/mport/mport4x2.jpg 2x"
+                                media="(min-width:480px)" />
                             <img src="./images/portfolio/mport/mport4x1.jpg" alt="Наушники" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -181,7 +210,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport5x1.jpg 1x, ./images/portfolio/dport/dport5x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport5x1.jpg 1x, ./images/portfolio/tport/tport5x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport5x1.jpg 1x, ./images/portfolio/mport/mport5x2.jpg 2x"
+                                media="(min-width:480px)" />
                             <img src="./images/portfolio/mport/mport5x1.jpg" alt="Две коробки" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -197,7 +234,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport6x1.jpg 1x, ./images/portfolio/dport/dport6x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport6x1.jpg 1x, ./images/portfolio/tport/tport6x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport6x1.jpg 1x, ./images/portfolio/mport/mport6x2.jpg 2x"
+                                media="(min-width:480px)" />
                             <img src="./images/portfolio/mport/mport6x1.jpg" alt="Телевизор" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -213,7 +258,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport7x1.jpg 1x, ./images/portfolio/dport/dport7x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport7x1.jpg 1x, ./images/portfolio/tport/tport7x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport7x1.jpg 1x, ./images/portfolio/mport/mport7x2.jpg 2x"
+                                media="(min-width:480px)" />
                             <img src="./images/portfolio/mport/mport7x1.jpg" alt="Открытый журнал" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -229,7 +282,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport8x1.jpg 1x, ./images/portfolio/dport/dport8x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport8x1.jpg 1x, ./images/portfolio/tport/tport8x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport8x1.jpg 1x, ./images/portfolio/mport/mport8x2.jpg 2x"
+                                media="(min-width:480px)" />
                             <img src="./images/portfolio/mport/mport8x1.jpg" alt="Этикетка" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -245,7 +306,15 @@
                     <li class="card">
                         <a class="card__link link" href="">
                             <div class="card__box">
-                            <img src="./images/portfolio/mport/mport9x1.jpg" alt="Работа за ноутбуком" width="100%">
+                                <picture>
+                            <source srcset="./images/portfolio/dport/dport9x1.jpg 1x, ./images/portfolio/dport/dport9x2.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <source srcset="./images/portfolio/tport/tport9x1.jpg 1x, ./images/portfolio/tport/tport9x2.jpg 2x"
+                                media="(min-width:768px)" />
+                            <source srcset="./images/portfolio/mport/mport9x1.jpg 1x, ./images/portfolio/mport/mport9x2.jpg 2x"
+                                media="(min-width:480px)" />
+                            <img src="./images/portfolio/mport/mport9x1.jpg" alt="Работа за ноутом" width="100%">
+                            </picture>
                             <div class="card__overlay">
                                     <p class="card__text"> Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов. </p>
@@ -266,7 +335,8 @@
     <!--Подвал-->
     <footer class="footer">
         <div class="container footer__container">
-            <div class="navigation-box">
+            <div class="footer__navigation">
+                <div class="navigation-box">
                 <a class="logo link logo--bottom " href="./index.html">
                     <span class="logo__web">Web</span>Studio
                 </a>
@@ -281,8 +351,8 @@
                                 11 11</a></li>
                     </ul>
                 </address>
-            </div>
-            <div class="networks">
+                </div>
+                <div class="networks">
                 <h3 class="networks__title">Присоединяйтесь</h3>
                 <ul class="networks__list list">
                     <li class="networks__content">
@@ -311,6 +381,7 @@
                     </li>
                 </ul>
 
+                </div>
             </div>
             <div class="mailing">
                 <h3 class="mailing__title">Подпишитесь на рассылку</h3>

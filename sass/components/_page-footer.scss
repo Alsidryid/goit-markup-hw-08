@@ -3,3 +3,15 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer__navigation {
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.footer__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}

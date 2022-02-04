@@ -1,6 +1,10 @@
 .our-clients {
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .our-clients__title {
   font-weight: 700;
@@ -10,6 +14,10 @@
   letter-spacing: 0.03em;
 
   margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50pxpx;
+  }
 }
 .clients {
   display: flex;
@@ -28,6 +36,10 @@
   height: 92px;
   @media screen and(min-width:768px) {
     flex-basis: calc(100% / 3 - 30px);
+  }
+  @media screen and(min-width:1200px) {
+    flex-basis: calc(100% / 6 - 30px);
+    margin-top: 0px;
   }
 }
 

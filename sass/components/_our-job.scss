@@ -1,6 +1,11 @@
 .our-job.section {
   display: none;
   padding-top: 0px;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .our-job__title {
   font-weight: 700;
@@ -11,6 +16,7 @@
   margin-bottom: 50px;
 }
 .our-job__list {
+  display: flex;
 }
 .our-job__content {
   position: relative;
