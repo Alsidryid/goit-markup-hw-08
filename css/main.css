@@ -1734,6 +1734,7 @@ body {
   position: fixed;
   background-color: var(--bacnd-color);
   padding: 48px 40px;
+  z-index: 99;
 }
 
 .navigation-mob.is-open {
