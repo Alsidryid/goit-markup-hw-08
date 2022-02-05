@@ -13,6 +13,14 @@
   &:hover .close-button__icon {
     fill: var(--button-color);
   }
+  @media screen and (max-width: 327px) {
+    top: 18px;
+    right: 12px;
+  }
+  @media screen and (max-height: 591px) {
+    top: 23px;
+    right: 12px;
+  }
 }
 .close-button__icon {
   position: absolute;

@@ -34,16 +34,17 @@
                 <button class="navigation-mob__button " data-menu-close  aria-expanded="true" type="button">
                     <svg class="navigation-mob__icon" width="19px" height="19px" aria-label="Переключатель мобильного меню">
                         
-                        <use  class="navigation-mob__close"href="./images/icons.svg#icon-close_24px"> </use>
+                        <use  class="navigation-mob__close" href="./images/icons.svg#icon-close_24px"> </use>
                     </svg>
                     </button>
+                    
                 <ul class="navigation-mob__list list">
                     <li class="navigation-mob__content"><a class="navigation-mob__link navigation-mob__link--studio link" href="./index.html">Студия</a></li>
                     <li class="navigation-mob__content"><a class="navigation-mob__link link" href="./portfolio.html">Портфолио</a></li>
                     <li class="navigation-mob__content"><a class="navigation-mob__link link" href="">Контакты</a></li>
                 </ul>
-            
-            <ul class="contacts-mob list">
+                <div class="navigation__box">
+                <ul class="contacts-mob list">
                 <li class="contacts-mob__content"><a class="contacts-mob__link contacts-mob__link--tel  link" href="tel:+380961111111">
                 
                         +38 096 111 11 11
@@ -54,14 +55,16 @@
                 </a>
                 </li>
                
-            </ul>
-            <ul class="networks-mob list" > 
+                </ul>
+                <ul class="networks-mob list" > 
                 <li class="networks-mob__content "><a  class="networks-mob__link link" href="">Instagram</a></li>
                 <li class="networks-mob__content "><a  class="networks-mob__link  link" href="">Twitter</a></li>
                 <li class="networks-mob__content "><a  class="networks-mob__link  link" href="">Facebook</a></li>
                 <li class="networks-mob__content "><a  class="networks-mob__link link " href="">LinkedIn</a></li>
 
-            </ul>
+                 </ul>
+                </div>
+            
         </div>
             <nav class="navigation" >
                 <a href="./index.html" class="logo link">
@@ -213,10 +216,18 @@
                     <div class="our-job_lettering">Десктопные приложения</div>
                 </li>
                 <li class="our-job__content">
-                    <img srcset="./images/job/box2x1.jpg x1, ./images/job/box2x2.jpg 2x" src="./images/job/box2x1.jpg" alt="Мобильные приложения" width="370"><div class="our-job_lettering">Мобильные приложения</div>
+                    <picture>
+                        <source srcset="./images/job/box2x1.jpg 1x, ./images/job/box2x2.jpg 2x" />
+                    <img  src="./images/job/box2x1.jpg" alt="Мобильные приложения" width="370">
+                    </picture>
+                    <div class="our-job_lettering">Мобильные приложения</div>
                 </li>
                 <li class="our-job__content">
-                    <img srcset="./images/job/box3x1.jpg x1, ./images/job/box3x2.jpg 2x" src="./images/job/box3x1.jpg" alt="Дизайнерские решения" width="370"><div class="our-job_lettering">Дизайнерские решения</div>
+                    <picture>
+                        <source srcset="./images/job/box3x1.jpg 1x, ./images/job/box3x2.jpg 2x" />
+                        <img src="./images/job/box3x1.jpg" alt="Мобильные приложения" width="370">
+                    </picture>
+                    <div class="our-job_lettering">Дизайнерские решения</div>
                 </li>
             </ul>
        </div>
@@ -234,7 +245,7 @@
                                 media="(min-width:768px)" />
                         <source srcset="./images/team/worker1/mworker1x1.jpg 1x, ./images/team/worker1/mworker1x2.jpg 2x" 
                                 media="(min-width:480px)" />
-                         <img  src="./images/team/worker1/mworker1x1.jpg" alt="worker" width="100%" >
+                         <img  src="./images/team/worker1/mworker1x1.jpg" alt="worker"  >
                     </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Игорь Демьяненко</h3>
@@ -271,7 +282,7 @@
                             media="(min-width:768px)" />
                         <source srcset="./images/team/worker2/mworker2x1.jpg 1x, ./images/team/worker2/mworker2x2.jpg 2x"
                             media="(min-width:480px)" />
-                        <img src="./images/team/worker2/mworker2x1.jpg" alt="worker" width="100%">
+                        <img src="./images/team/worker2/mworker2x1.jpg" alt="worker" >
                         </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Ольга Репина</h3>
@@ -308,7 +319,7 @@
                             media="(min-width:768px)" />
                         <source srcset="./images/team/worker3/mworker3x1.jpg 1x, ./images/team/worker3/mworker3x2.jpg 2x"
                             media="(min-width:480px)" />
-                        <img src="./images/team/worker3/mworker3x1.jpg" alt="worker" width="100%">
+                        <img src="./images/team/worker3/mworker3x1.jpg" alt="worker" >
                     </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Николай Тарасов</h3>
@@ -345,7 +356,7 @@
                             media="(min-width:768px)" />
                         <source srcset="./images/team/worker4/mworker4x1.jpg 1x, ./images/team/worker4/mworker4x2.jpg 2x"
                             media="(min-width:480px)" />
-                        <img src="./images/team/worker4/mworker4x1.jpg" alt="worker" width="100%">
+                        <img src="./images/team/worker4/mworker4x1.jpg" alt="worker" >
                     </picture>
                     <div class="employee__box">
                     <h3 class="employee__title">Михаил Ермаков</h3>

@@ -72,6 +72,9 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+  @media screen and(min-width:768px) {
+    text-align: start;
+  }
 }
 .services__description {
   font-size: 14px;
